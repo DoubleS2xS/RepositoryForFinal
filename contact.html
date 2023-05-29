@@ -28,7 +28,9 @@
 					<li class="nav-item">
 						<a class="nav-link" href="contact.html">Contact us</a>
 					</li>
-					
+					<li class="nav-item">
+						<a href="login.html" id="SignIn"  style="display: inline-block; padding: 5px 10px; background-color: #00ff; color: white; text-decoration: none; border-radius: 4px; border: none; text-align: center; min-width: 50px;">Sign in</a>
+					</li>
 					
 				</ul>
 			</div>
@@ -51,9 +53,17 @@
     <input type="email" class="contact-form-text" placeholder="Your email">
     <input type="text" class="contact-form-text" placeholder="Your phone">
     <textarea class="contact-form-text" placeholder="Your message"></textarea>
-    <input type="submit" class="contact-form-btn" value="Send">
+    <input type="submit" id="sendButton" class="contact-form-btn" value="Send">
   </form>
 </div>
+
+<script>
+  const sendButton = document.getElementById('sendButton');
+  sendButton.addEventListener('click', function() {
+    alert('Your form confirmed!');
+  });
+</script>
+
  <br><br><br>
  <h1 class="heading"> <span><img src="images/aaa.png "  width="180" height="100"></span> </h1>
       <section class="footer">

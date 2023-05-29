@@ -72,9 +72,18 @@
 <label for="myCheckbox">I agree with the terms of the site</label>
         <button id="backButton">Submit</button>
       </form>
-        <a href="index.html" class="btn">Home</a> 
+      
+      <a href="index.html" id="SignIn"  style="display: inline-block; padding: 5px 10px; background-color: gray; color: white; text-decoration: none; border-radius: 4px; border: none; text-align: center; min-width: 50px;">Home</a>
+
+      
     </section>
       
+<script>
+  const backButton = document.getElementById('backButton');
+  backButton.addEventListener('click', function() {
+    alert('Your form confirmed!');
+  });
+</script>
        <script src="main.js"></script>
   </body>
 </html>
