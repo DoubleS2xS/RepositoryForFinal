@@ -14,9 +14,9 @@
 
   <body>
 	
-	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="#" ><span class="text-warning"></span>OneGym</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<a class="navbar-brand" href="index.html" ><span class="text-warning"></span>OneGym</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
@@ -121,7 +121,7 @@
                 <img src="images/icon-1.png" alt="">
                 <h3>body building</h3>
                 <p>Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles.</p>
-                <a href="#" class="btn">read more</a>
+                <a href="aboutus.html" class="btn">read more</a>
             </div>
         </div>
 
@@ -133,7 +133,7 @@
                 <img src="images/icon-2.png" alt="">
                 <h3>gym for men</h3>
                 <p> Beginner Full Body Workout Routine for Men.</p>
-                <a href="#" class="btn">read more</a>
+                <a href="aboutus.html" class="btn">read more</a>
             </div>
         </div>
 
@@ -145,7 +145,7 @@
                 <img src="images/icon-3.png" alt="">
                 <h3>gym for women</h3>
                 <p>A beginners' full-body gym workout plan for women.</p>
-                <a href="#" class="btn">read more</a>
+                <a href="aboutus.html" class="btn">read more</a>
             </div>
         </div>
 
@@ -163,7 +163,7 @@
         <p> <i class="fas fa-check"></i> weight lifting </p>
         <p> <i class="fas fa-check"></i> diet plans </p>
         <p> <i class="fas fa-check"></i> overall results </p>
-        <a href="#" class="btn">all pricing</a>
+        <a href="contact.html" class="btn">all pricing</a>
     </div>
 
     <div class="plan basic">
@@ -176,7 +176,7 @@
         <p> <i class="fas fa-check"></i> diet plans </p>
         <p> <i class="fas fa-check"></i> overall results </p>
        </div>
-       <a href="#" class="btn">get started</a>
+       <a href="contact.html" class="btn">get started</a>
     </div>
 
     <div class="plan">
@@ -189,7 +189,7 @@
         <p> <i class="fas fa-check"></i> diet plans </p>
         <p> <i class="fas fa-check"></i> overall results </p>
        </div>
-       <a href="#" class="btn">get started</a>
+       <a href="contact.html" class="btn">get started</a>
     </div>
 
 </section>
@@ -378,7 +378,7 @@
     <span>join us now</span>
     <h3>Why choose us?</h3>
     <p>Gym OneGym Is A Place Where Every Person Is Ready To Change Himself For The Better. We Provide The Best Equipment, Professional Trainers And Feedback From Each Client.</p>
-    <a href="#" class="btn">get gym membership</a>
+    <a href="contact.html" class="btn">get gym membership</a>
 
 </section>
       <section class="review">
@@ -387,7 +387,7 @@
         <span>testimonials</span>
         <h3>what our clients says</h3>
         <p>We have a dominant number of positive reviews. And all this is not easy, because we have the best equipment and the best staff in the whole city. Get a subscription soon.</p>
-        <a href="#" class="btn">read more</a>
+        <a href="aboutus.html" class="btn">read more</a>
     </div>
 
     <div class="swiper review-slider">
@@ -451,7 +451,7 @@
                     <div class="link"> <a href="#">By Aybek</a> <span>|</span> <a href="#">27st may, 2023</a> </div>
                     <h3>fitness is not about being better than someone else</h3>
                     <p>Find out what exercises are used by famous athletes and bodybuilders.</p>
-                    <a class="btn">read more</a>
+                    <a href="aboutus.html" class="btn">read more</a>
                 </div>
             </div>
 
@@ -522,6 +522,19 @@
 
 <div class="credit"> OneGym <span>Best choice ever</span> | @2023 </div>
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script>
+    var navbar = document.getElementById('navbar');
+   
+   function toggleNavbar() {
+     if (window.scrollY > 0) {
+       navbar.classList.add('scrolled');
+     } else {
+       navbar.classList.remove('scrolled');
+     }
+   }
+   
+   window.addEventListener('scroll', toggleNavbar);
+   </script>
 
 
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

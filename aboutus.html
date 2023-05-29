@@ -24,9 +24,9 @@
   </head>
   <body>
     
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 		<div class="container">
-			<a class="navbar-brand" href="#" ><span class="text-warning"></span>OneGym</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+			<a class="navbar-brand" href="index.html" ><span class="text-warning"></span>OneGym</a> <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 					<li class="nav-item">
@@ -301,6 +301,19 @@ function showSlides(n) {
 </section>
 
 <div class="credit"> OneGym <span>Best choice ever</span> | @2023 </div>
+<script>
+    var navbar = document.getElementById('navbar');
+   
+   function toggleNavbar() {
+     if (window.scrollY > 0) {
+       navbar.classList.add('scrolled');
+     } else {
+       navbar.classList.remove('scrolled');
+     }
+   }
+   
+   window.addEventListener('scroll', toggleNavbar);
+   </script>
 
 <!-- footer section ends -->
 <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>

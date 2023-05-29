@@ -1066,6 +1066,7 @@ textarea.contact-form-text{
   /* Hide the images by default */
   .mySlides {
 	display: none;
+	border-radius: 10px;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -1143,11 +1144,46 @@ textarea.contact-form-text{
   #musicbtn{
 	padding-left: 45%;
 	padding-bottom: 5%;
-	width: 100px;
-	height: 100px;
-	font-size: 30px;
+
+	font-size:30px;
 	background-color: black;
-    color: #00ff;
+    color: #fff;
 	
   }
+
+  #navbar {
+	background-color: transparent;
+	padding: 10px;
+	transition: height 0.5s ease, background-color 0.5s ease;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+  }
+  
+  #navbar ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+  }
+  
+  #navbar ul li {
+	margin: 0 10px;
+  }
+  
+  #navbar ul li a {
+	text-decoration: none;
+	color: #333;
+  }
+  
+  .scrolled {
+	background-color: #f2f2f2;
+	height: 50px;
+  }
+ 
   

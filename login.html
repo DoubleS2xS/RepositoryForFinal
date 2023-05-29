@@ -16,7 +16,11 @@
       <form action="#" class="form">
         <div class="input-box">
           <label>Full Name</label>
-          <input type="text" placeholder="Enter full name" required />
+          <div>
+            <input type="text" id="fullNameInput" placeholder="Enter full name" required />
+            <p id="capsLockMessage" style="display: none; color: red;">Caps Lock включен</p>
+          </div>
+          
         </div>
         <div class="input-box">
           <label>Email Address</label>
@@ -71,6 +75,35 @@
           <input type="checkbox" id="myCheckbox" name="myCheckbox" value="option1">
 <label for="myCheckbox">I agree with the terms of the site</label>
         <button id="backButton">Submit</button>
+
+        <script>
+          var button = document.getElementById("backButton");
+button.addEventListener("mouseover", function(event) {
+  // Change the color of the button to red
+  button.style.backgroundColor = "red";
+});
+button.addEventListener("mouseout", function(event) {
+  // Change the color of the button back to its original color
+  button.style.backgroundColor = ""; // This sets it back to the default color
+});
+        </script>
+
+        <script>
+          var fullNameInput = document.getElementById('fullNameInput');
+var capsLockMessage = document.getElementById('capsLockMessage');
+
+fullNameInput.addEventListener('keypress', function(event) {
+  var charCode = event.charCode;
+  var char = String.fromCharCode(charCode);
+
+  if (char === char.toUpperCase() && char !== char.toLowerCase()) {
+    capsLockMessage.style.display = 'block';
+  } else {
+    capsLockMessage.style.display = 'none';
+  }
+});
+        </script>
+
       </form>
       
       <a href="index.html" id="SignIn"  style="display: inline-block; padding: 5px 10px; background-color: gray; color: white; text-decoration: none; border-radius: 4px; border: none; text-align: center; min-width: 50px;">Home</a>
