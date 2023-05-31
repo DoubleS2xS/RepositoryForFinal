@@ -934,21 +934,17 @@ br{
     width: 700px;
 }
 
-
 @media (max-width:768px) {
     .container .pop-up img {
         width: 95%;
     }
 }
 
-
 *{
   margin: 0;
   padding: 0;
 
 }
-
-
 
 .contact-form{
   max-width: 600px;
