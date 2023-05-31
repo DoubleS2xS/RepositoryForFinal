@@ -8,6 +8,8 @@
     <!--<title>Registration Form in HTML CSS</title>-->
     <!---Custom CSS File--->
     <link rel="stylesheet" href="style2.css" />
+    <title>OneGym</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
       <div class="background-image"></div>
@@ -37,7 +39,7 @@
           </div>
         </div>
         <div class="gender-box">
-          <h3>Gender</h3>
+          <h2>Gender</h2>
           <div class="gender-option">
             <div class="gender">
               <input type="radio" id="check-male" name="gender" checked />
@@ -118,5 +120,10 @@ fullNameInput.addEventListener('keypress', function(event) {
   });
 </script>
        <script src="main.js"></script>
+
+       <script>
+$("h2").text("Gender");
+       </script>
+
   </body>
 </html>

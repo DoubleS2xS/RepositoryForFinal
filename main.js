@@ -67,3 +67,15 @@ var swiper = new Swiper(".blogs-slider", {
     },
 });
 
+// Jquery Lab6
+// Select all <p> elements
+var paragraphs = $("p");
+
+
+$("p").css("color", "red");
+
+// Manipulate text content
+$("h1").text("Hello, jQuery!");
+
+// Manipulate attributes
+$("img").attr("src", "new-image.jpg");

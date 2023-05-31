@@ -1187,4 +1187,15 @@ textarea.contact-form-text{
 	height: 50px;
   }
  
+  .center-table {
+	margin: 0 auto; /* Центрирование таблицы по горизонтали */
+	border-collapse: collapse; /* Объединение границ ячеек */
+	background-color: #fff; /* Цвет фона таблицы */
+  }
+  
+  .center-table th, .center-table td {
+	border: 1px solid #000; /* Толщина и цвет границы ячеек */
+	padding: 10px; /* Отступ внутри ячеек */
+  }
+  
   
