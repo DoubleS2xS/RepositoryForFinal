@@ -159,10 +159,10 @@ html {
 	 width: 1rem;
 }
  html::-webkit-scrollbar-track {
-	 background: #000;
+	 background: #fff;
 }
  html::-webkit-scrollbar-thumb {
-	 background: #000 ff;
+	 background: #0099af ;
 }
  body {
 	 background: #000;
