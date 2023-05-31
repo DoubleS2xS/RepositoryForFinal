@@ -15,8 +15,10 @@
           if (audio !== null && !audio.paused) {
             audio.pause();
           }
-          audio = new Audio('music.mp3');
-          audio.play();
+          else{
+            audio = new Audio('music.mp3');
+            audio.play();
+          }
         }
       </script>
       
