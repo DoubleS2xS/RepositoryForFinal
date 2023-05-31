@@ -32,7 +32,7 @@ body {
 .carousel-caption {
 	bottom: 220px;
 	z-index: 2;
-	color: #0099af;
+	color: #fff;
 }
 .carousel-caption h5 {
 	font-size: 45px;
@@ -270,11 +270,11 @@ html {
  .swiper-pagination-bullet {
 	 height: 2rem;
 	 width: 2rem;
-	 background: #0099af;
+	 background: #fff;
 	 border-radius: 0;
 }
  .swiper-pagination-bullet.swiper-pagination-bullet-active {
-	 background: #0099af;
+	 background: #fff;
 }
  .about {
 	 display: flex;
@@ -320,7 +320,7 @@ html {
 }
  .about .content p {
 	 font-size: 1.5rem;
-	 color: #0099af;
+	 color: #fff;
 	 padding: 1rem 0;
 	 line-height: 2;
 }
@@ -383,7 +383,7 @@ html {
  .features .box-container .box .content p {
 	 line-height: 2;
 	 font-size: 1.5rem;
-	 color: #0099af;
+	 color: #fff;
 	 padding: 1rem 0;
 }
  .pricing {
@@ -404,7 +404,7 @@ html {
 	 line-height: 2;
 	 padding: 1rem 0;
 	 font-size: 1.4rem;
-	 color: #0099af;
+	 color: #fff;
 }
  .pricing .information p i {
 	 padding-right: 1rem;
@@ -425,7 +425,7 @@ html {
  .pricing .plan .price {
 	 font-size: 5rem;
 	 font-weight: bolder;
-	 color: #0099af;
+	 color: #fff;
 }
  .pricing .plan .price span {
 	 color: #0099af;
@@ -438,7 +438,7 @@ html {
 	 line-height: 2;
 	 padding: 1rem 0;
 	 font-size: 1.4rem;
-	 color: #0099af;
+	 color: #fff;
 }
  .pricing .plan .list p i {
 	 padding-right: 1rem;
@@ -477,17 +477,17 @@ html {
 }
  .trainers .box-container .box .content h3 {
 	 font-size: 2rem;
-	 color: #0099af;
+	 color: #fff;
 	 padding-top: 0.5rem;
 }
  .trainers .box-container .box .content .share {
 	 padding-top: 2rem;
 	 margin-top: 1.5rem;
-	 border-top: 0.1rem solid #0099af;
+	 border-top: 0.1rem solid #fff;
 }
  .trainers .box-container .box .content .share a {
 	 font-size: 2rem;
-	 color: #0099af;
+	 color: #fff;
 	 margin-right: 1.5rem;
 }
  .trainers .box-container .box .content .share a:hover {
@@ -514,7 +514,7 @@ html {
 	 margin: 1rem auto;
 	 max-width: 60rem;
 	 font-size: 1.5rem;
-	 color: #0099af;
+	 color: #fff;
 	 line-height: 2;
 }
  .review {
@@ -532,13 +532,13 @@ html {
 }
  .review .information h3 {
 	 font-size: 3rem;
-	 color: #0099af;
+	 color: #fff;
 	 padding-top: 1rem;
 }
  .review .information p {
 	 font-size: 1.5rem;
 	 line-height: 2;
-	 color: #0099af;
+	 color: #fff;
 	 padding: 1rem 0;
 }
  .review .review-slider {
@@ -551,7 +551,7 @@ html {
  .review .review-slider .slide p {
 	 font-size: 1.5rem;
 	 line-height: 2;
-	 color: #0099af;
+	 color: #fff;
 }
  .review .review-slider .slide .user {
 	 display: flex;
@@ -570,7 +570,7 @@ html {
 	 color: #0099af;
 }
  .review .review-slider .slide .user span {
-	 color: #0099af;
+	 color: #fff;
 	 font-size: 1.5rem;
 }
  .review .review-slider .slide .user i {
@@ -615,12 +615,12 @@ html {
 }
  .blogs .slide .content h3 {
 	 font-size: 2rem;
-	 color: #0099af;
+	 color: #fff;
 	 line-height: 1.5;
 }
  .blogs .slide .content p {
 	 font-size: 1.5rem;
-	 color: #0099af;
+	 color: #fff;
 	 line-height: 2;
 	 padding: 1rem 0;
 }
@@ -637,7 +637,7 @@ html {
  .footer .box-container .box .links {
 	 font-size: 1.5rem;
 	 display: block;
-	 color: #0099af;
+	 color: #fff;
 	 padding: 1rem 0;
 }
  .footer .box-container .box .links:hover {
@@ -645,12 +645,12 @@ html {
 }
  .footer .box-container .box p {
 	 font-size: 1.5rem;
-	 color: #0099af;
+	 color: #fff;
 	 padding: 1rem 0;
 }
  .footer .box-container .box p i {
 	 padding-right: 0.5rem;
-	 color: #0099af;
+	 color: #fff;
 }
  .footer .box-container .box .share {
 	 padding: 1rem 0;
@@ -660,7 +660,7 @@ html {
 	 width: 4.5rem;
 	 line-height: 4.5rem;
 	 font-size: 1.7rem;
-	 color: #0099af;
+	 color: #fff;
 	 background: #111;
 	 border-radius: 50%;
 	 margin-right: 0.5rem;
@@ -675,14 +675,14 @@ html {
 	 background: #111;
 	 padding: 1.2rem;
 	 font-size: 1.5rem;
-	 color: #0099af;
+	 color: #fff;
 	 text-transform: none;
 }
  .credit {
 	 font-size: 2rem;
 	 text-align: center;
 	 padding: 2rem;
-	 color: #0099af;
+	 color: #fff;
 	 background: #111;
 	 line-height: 1.5;
 }
@@ -910,7 +910,7 @@ br{
     margin: 0;
 
     font-size: 45px;
-    color: #0099af;
+    color: #fff;
     text-align: center;
 }
 
@@ -945,7 +945,7 @@ br{
 .container .img-container .img {
     width: 350px;
     height: 250px;
-    border: 5px solid #0099af;
+    border: 5px solid #fff;
     overflow: hidden;
     cursor: pointer;
     border-radius: 10px;
@@ -993,7 +993,7 @@ br{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 5px solid #0099af;
+    border: 5px solid #fff;
     border-radius: 8px;
     width: 700px;
 }
@@ -1148,7 +1148,7 @@ textarea.contact-form-text{
 
 	font-size:30px;
 	background-color: black;
-    color: #0099af;
+    color: #fff;
 	
   }
 
