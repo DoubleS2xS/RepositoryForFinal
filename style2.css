@@ -43,7 +43,7 @@ body {
     font-size: 1rem;
     color: #707070;
     margin-top: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid #0099af;
     border-radius: 6px;
     padding: 0 15px;
   }
@@ -73,7 +73,7 @@ body {
     column-gap: 5px;
   }
   .gender input {
-    accent-color: rgb(130, 106, 251);
+    accent-color: #0099af;
   }
   .form :where(.gender input, .gender label) {
     cursor: pointer;
@@ -102,10 +102,10 @@ body {
     border: none;
     cursor: pointer;
     transition: all 0.2s ease;
-    background-color: blue;
+    background-color: #0099af;
   }
   .form button:hover {
-    background: rgb(88, 56, 250);
+    background:#0099af;
   }
   /*Responsive*/
   @media screen and (max-width: 500px) {
